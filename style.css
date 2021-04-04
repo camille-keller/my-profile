@@ -1,0 +1,139 @@
+/*Colors and fonts*/
+
+
+
+body {
+background-color:f8ede3;
+color: rgb(30,30,30);
+font-family: 'Lora', serif;
+font size: 30px;
+text-align: center;
+
+h1,h2,h3{
+
+  font font-family: Courier
+}
+}
+
+h1{
+    color: #494949;
+    font-family: 'Playfair Display SC', serif;
+    font-style: italic;
+    font-weight: 900;
+    background: rgba(130, 175, 124, 0.8);
+
+    letter-spacing: 4px;
+    text-rendering: optimizeLegibility;
+    font size:60
+    text-align: center;
+
+}
+
+h2 {
+
+    color: #618e7b;
+    font-family: 'Lora', serif;
+    font size: 38px
+    line-height: 1.75;
+    align-content: center;
+
+
+
+}
+
+a{
+  text-decoration: none;
+  color:rgb(30,30,30) ;
+  font-weight: bold;
+  font-size: 18px
+
+
+
+}
+
+p{
+
+  font-size: 18px
+  font-family: 'Lora', serif;
+
+}
+
+a:hover{
+
+
+  color: #618e7b;
+}
+
+#Camille{
+
+  width: 200px
+
+
+
+}
+.btn-green{
+
+  background color:#618e7b ;
+}
+
+
+.img-circle{
+
+
+  border-radius: 20%;
+
+}
+
+
+.list-inline{
+
+
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.list-inline li{
+
+  display:inline;
+  padding: 10px;
+}
+
+.list-inline i {
+
+  font-size:50px;
+}
+
+.element-style {
+
+
+        background: white;
+        padding: 60px;
+        margin: 50px;
+        box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+        border-radius: 4px;
+
+}
+
+.container{
+  width: 900px;
+  margin: 40px auto;
+}
+
+@media(max-width: 760px){
+
+  .container{
+    width: 600px;
+  }
+
+@media(max-width: 500px){
+
+  .container{
+    width: 400px;
+  }
+
+
+}
+
+
+
